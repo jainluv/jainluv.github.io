@@ -21,7 +21,7 @@ Outside of building, I like keeping up with defence technology and geopolitical 
 
 ## Links
 
-- GitHub: https://github.com/luvjain22307-hue
+- GitHub: https://github.com/jainluv
 - AmazeDex: https://github.com/OMSONTAKKE003/AmazeDex
 - X: https://x.com/LuvJain22
 - Email: luvjain22307@gmail.com  
