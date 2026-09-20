@@ -2,14 +2,14 @@ const menu = document.querySelector('.menu-button');
 const nav = document.querySelector('.nav-links');
 
 function closeMenu(){
-  nav?.classList.remove('is-open');
+  nav?.classList.remove('open');
   menu?.setAttribute('aria-expanded','false');
 }
 
 menu?.addEventListener('click',()=>{
   const open = menu.getAttribute('aria-expanded') === 'true';
   menu.setAttribute('aria-expanded',String(!open));
-  nav?.classList.toggle('is-open',!open);
+  nav?.classList.toggle('open',!open);
 });
 
 document.querySelectorAll('a[href^="#"]').forEach(link=>{
@@ -30,7 +30,7 @@ document.querySelectorAll('a[href^="#"]').forEach(link=>{
 });
 
 document.addEventListener('click',event=>{
-  if(nav?.classList.contains('is-open') && !event.target.closest('.site-nav'))closeMenu();
+  if(nav?.classList.contains('open') && !event.target.closest('.site-nav'))closeMenu();
 });
 
 
